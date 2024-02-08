@@ -1,1 +1,13 @@
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('futureworldsitalic-qzzz6-webfont.woff2') format('woff2'),
+       url('futureworldsitalic-qzzz6-webfont.woff') format('woff');
+}
 
+div.header {
+  font-family: 'MyCustomFont', fallback, sans-serif;
+}
+
+div.footer {
+  font-family: 'MyCustomFont', fallback, sans-serif;
+}
